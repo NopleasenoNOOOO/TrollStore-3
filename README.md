@@ -4,13 +4,13 @@ TrollStore is a permasigned jailed app that can permanently install any IPA you 
 
 It works because of an AMFI/CoreTrust bug where iOS does not correctly verify code signatures of binaries in which there are multiple signers.
 
-Supported versions: 14.0 beta 2 - 16.6.1, 16.7 RC (20H18), 17.0
+Supported versions: 14.0 beta 2 - 16.6.1, 16.7 RC (20H18), 17.0-17.4
 
 ## Installing TrollStore
 
-For installing TrollStore, refer to the guides at [ios.cfw.guide](https://ios.cfw.guide/installing-trollstore)
+For installing TrollStore, refer to the guides at [ios.cfw.guide](doesn't exist yet since no release:/ )
 
-16.7.x (excluding 16.7 RC) and 17.0.1+ will NEVER be supported (unless a third CoreTrust bug is discovered, which is unlikely).
+16.7.x (excluding 16.7 RC) and 17.4+ will NEVER be supported (unless a fourth CoreTrust bug is discovered, which is unlikely).
 
 ## Updating TrollStore
 
@@ -32,7 +32,7 @@ On jailbroken iOS 14 when TrollHelper is used for installation, it is located in
 
 ## URL Scheme
 
-As of version 1.3, TrollStore replaces the system URL scheme "apple-magnifier" (this is done so "jailbreak" detections can't detect TrollStore like they could if TrollStore had a unique URL scheme). This URL scheme can be used to install applications right from the browser, or to enable JIT from the app itself (only 2.0.12 and above), the format goes as follows:
+As of version 1.3, TrollStore replaces the system URL scheme "apple-magnifier" (this is done so "jailbreak" detections can't detect TrollStore like they could if TrollStore had a unique URL scheme). This URL scheme can be used to install applications right from the browser, or to enable JIT from the app itself (only 3.0 and above), the format goes as follows:
 
 - `apple-magnifier://install?url=<URL_to_IPA>`
 - `apple-magnifier://enable-jit?bundle-id=<Bundle_ID>`
